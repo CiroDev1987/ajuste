@@ -76,7 +76,8 @@ class Ciro {
                 "FX LIVRE - EMPREST. GAR. FIDUCIARIA - Prejuízo              ",
                 "FX LIVRE - AQUISICAO TERRENO - Com Atraso                   ",
                 "PEM - AQUISICAO DE TERRENO - Com Atraso                     ",
-                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - USADO - Prejuízo         "
+                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - USADO - Prejuízo         ",
+                "Ciro - Com Atraso"
         };
 
         for (int i = 0; i < financiamento.length; i++) {
