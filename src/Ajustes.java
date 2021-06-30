@@ -4,92 +4,108 @@ class Ciro {
 
     public static void main(String[] args) {
 
-        String financiamento = "T.MERCADO - MATERIAL DE CONSTRUCAO                          \n" +
-                "PROCAP-FAIXA II-SFH-IMOVEIS RESID-NOVO                      \n" +
-                "                                                            \n" +
-                "PROCAP - AQUISICAO TERRENO - Prejuízo                       \n" +
-                "T.MERCADO - IMOVEIS COMERCIAIS                              \n" +
-                "T.MERCADO - IMOVEIS RESID - USADO - Com Atraso              \n" +
-                "T.MERCADO - CONSTRUCAO CONCLUIDA - Com Atraso               \n" +
-                "T.MERCADO - CONSTRUCAO CONCLUIDA - Prejuízo                 \n" +
-                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - USADO - Com Atraso       \n" +
-                "PEM - IMOVEIS RESID - NOVO - Prejuízo                       \n" +
-                "PROCAP-FAIXA I-SFH-CONSTRUÇÃO CONCLUIDA - Prejuízo          \n" +
-                "T.MERCADO - MATERIAL DE CONSTRUCAO - LINHA MAIS             \n" +
-                "PROCAP-FAIXA II-SFH-IMOVEIS RESID-USADO                     \n" +
-                "SFH - IMOVEIS RESID. - USADO                                \n" +
-                "SFH - CONSTRUCAO CONCLUIDA - Com Atraso                     \n" +
-                "T.MERCADO - MAT DE CONSTRUCAO - GAR IMOB - Com Atraso       \n" +
-                "SFH - MAT.CONSTRUCAO - AQUIS.CRED.                          \n" +
-                "SFH - MAT.CONSTRUCAO - AQUIS.CRED. - Prejuízo               \n" +
-                "SFH - IMOVEIS RESID. - NOVO                                 \n" +
-                "SFH - CONSTRUCAO CONCLUIDA - Prejuízo                       \n" +
-                "T.MERCADO - IMOVEIS RESID - NOVO                            \n" +
-                "PROCAP-FAIXA II-SFH-IMOVEIS RESID-NOVO - Com Atraso         \n" +
-                "SFH - MAT.CONSTRUCAO - AQUIS.CRED. - Com Atraso             \n" +
-                "FX LIVRE - AQUISICAO TERRENO - Prejuízo                     \n" +
-                "FX LIVRE - EMPREST GAR. HIPOTECARIA - Prejuízo              \n" +
-                "T.MERCADO - MAT DE CONSTRUCAO - GAR IMOB                    \n" +
-                "T.MERCADO - IMOVEIS COMERCIAIS - Com Atraso                 \n" +
-                "PROCAP-FAIXA I-SFH-CONSTRUÇÃO CONCLUIDA                     \n" +
-                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - NOVO - Prejuízo          \n" +
-                "PROCAP-FAIXA II-SFH - CONTRUCAO CONCLUIDA - Com Atraso      \n" +
-                "T.MERCADO - MATERIAL DE CONSTRUCAO - Prejuízo               \n" +
-                "TM - M.CONSTRUCAO - AQUIS.CRÉDITO                           \n" +
-                "T.MERCADO - IMOVEIS RESID - USADO                           \n" +
-                "PROCAP-AQUISICAO DE TERRENO - FAIXA LIVRE                   \n" +
-                "PEM - IMOVEIS RESID - USADO - Prejuízo                      \n" +
-                "PROCAP-FAIXA III -T. MERCADO-IMOVEIS RESID – NOVO - Com Atra\n" +
-                "PEM - IMOVEIS RESID - USADO - Com Atraso                    \n" +
-                "TM - M.CONSTRUCAO - AQUIS.CRÉDITO Com Atraso                \n" +
-                "FX LIVRE - EMPREST. GAR. FIDUCIARIA - Com Atraso            \n" +
-                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - NOVO - Com Atraso        \n" +
-                "FX LIVRE - AQUISICAO TERRENO                                \n" +
-                "SFH - IMOVEIS RESID. - NOVO - Prejuízo                      \n" +
-                "PROCAP-FAIXA II-SFH - CONTRUCAO CONCLUIDA                   \n" +
-                "SFH - IMOVEIS RESID. - USADO - Com Atraso                   \n" +
-                "SFH - IMOVEIS RESID. - USADO - Prejuízo                     \n" +
-                "T.MERCADO - CONSTRUCAO CONCLUIDA                            \n" +
-                "PEM - CONSTRUCAO CONCLUIDA                                  \n" +
-                "EMPRESTIMOS - CAPITAL DE GIRO - Prejuízo                    \n" +
-                "T.MERCADO - MAT DE CONSTRUCAO - GAR IMOB - Prejuízo         \n" +
-                "PROCAP-FAIXA III -T. MERCADO-CONTRUCAO CONCLUÍDA            \n" +
-                "TM - M.CONSTRUCAO - AQUIS.CRÉDITO - Prejuízo                \n" +
-                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - NOVO                     \n" +
-                "PROCAP-FX ESPECIAL-SFH-IMÓVEL RESID                         \n" +
-                "T.MERCADO - MATERIAL DE CONSTRUCAO - LINHA MAIS - PREJUIZO  \n" +
-                "SFH - CONSTRUCAO CONCLUIDA                                  \n" +
-                "T.MERCADO - IMOVEIS RESID - NOVO - Prejuízo                 \n" +
-                "SFH - IMOVEIS RESID. - NOVO - Com Atraso                    \n" +
-                "PROCAP-FAIXA III -T. MERCADO-IMOVEIS RESID – NOVO           \n" +
-                "T.MERCADO - MATERIAL DE CONSTRUCAO - Com Atraso             \n" +
-                "PEM - AQUISICAO DE TERRENO                                  \n" +
-                "T.MERCADO - IMOVEIS RESID - NOVO - Com Atraso               \n" +
-                "FX LIVRE - EMPREST. GAR. FIDUCIARIA                         \n" +
-                "PROCAP-FX ESPECIAL-SFH-IMÓVEL RESID - Com Atraso            \n" +
-                "PEM - IMOVEIS RESID - USADO                                 \n" +
-                "T.MERCADO - IMOVEIS RESID - USADO - Prejuízo                \n" +
-                "PEM - IMOVEIS RESID - NOVO                                  \n" +
-                "T.MERCADO - MATERIAL DE CONSTRUCAO - LINHA MAIS - COM ATRASO\n" +
-                "PROCAP-FAIXA II-SFH-IMOVEIS RESID-USADO - Com Atraso        \n" +
-                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - USADO                    \n" +
-                "FX LIVRE - EMPREST. GAR. FIDUCIARIA - Prejuízo              \n" +
-                "FX LIVRE - AQUISICAO TERRENO - Com Atraso                   \n" +
-                "PEM - AQUISICAO DE TERRENO - Com Atraso                     \n" +
-                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - USADO - Prejuízo";
+        String[] financiamento = {
+                "T.MERCADO - MATERIAL DE CONSTRUCAO                          ",
+                "PROCAP-FAIXA II-SFH-IMOVEIS RESID-NOVO                      ",
+                "PROCAP - AQUISICAO TERRENO - Prejuízo                       ",
+                "T.MERCADO - IMOVEIS COMERCIAIS                              ",
+                "T.MERCADO - IMOVEIS RESID - USADO - Com Atraso              ",
+                "T.MERCADO - CONSTRUCAO CONCLUIDA - Com Atraso               ",
+                "T.MERCADO - CONSTRUCAO CONCLUIDA - Prejuízo                 ",
+                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - USADO - Com Atraso       ",
+                "PEM - IMOVEIS RESID - NOVO - Prejuízo                       ",
+                "PROCAP-FAIXA I-SFH-CONSTRUÇÃO CONCLUIDA - Prejuízo          ",
+                "T.MERCADO - MATERIAL DE CONSTRUCAO - LINHA MAIS             ",
+                "PROCAP-FAIXA II-SFH-IMOVEIS RESID-USADO                     ",
+                "SFH - IMOVEIS RESID. - USADO                                ",
+                "SFH - CONSTRUCAO CONCLUIDA - Com Atraso                     ",
+                "T.MERCADO - MAT DE CONSTRUCAO - GAR IMOB - Com Atraso       ",
+                "SFH - MAT.CONSTRUCAO - AQUIS.CRED.                          ",
+                "SFH - MAT.CONSTRUCAO - AQUIS.CRED. - Prejuízo               ",
+                "SFH - IMOVEIS RESID. - NOVO                                 ",
+                "SFH - CONSTRUCAO CONCLUIDA - Prejuízo                       ",
+                "T.MERCADO - IMOVEIS RESID - NOVO                            ",
+                "PROCAP-FAIXA II-SFH-IMOVEIS RESID-NOVO - Com Atraso         ",
+                "SFH - MAT.CONSTRUCAO - AQUIS.CRED. - Com Atraso             ",
+                "FX LIVRE - AQUISICAO TERRENO - Prejuízo                     ",
+                "FX LIVRE - EMPREST GAR. HIPOTECARIA - Prejuízo              ",
+                "T.MERCADO - MAT DE CONSTRUCAO - GAR IMOB                    ",
+                "T.MERCADO - IMOVEIS COMERCIAIS - Com Atraso                 ",
+                "PROCAP-FAIXA I-SFH-CONSTRUÇÃO CONCLUIDA                     ",
+                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - NOVO - Prejuízo          ",
+                "PROCAP-FAIXA II-SFH - CONTRUCAO CONCLUIDA - Com Atraso      ",
+                "T.MERCADO - MATERIAL DE CONSTRUCAO - Prejuízo               ",
+                "TM - M.CONSTRUCAO - AQUIS.CRÉDITO                           ",
+                "T.MERCADO - IMOVEIS RESID - USADO                           ",
+                "PROCAP-AQUISICAO DE TERRENO - FAIXA LIVRE                   ",
+                "PEM - IMOVEIS RESID - USADO - Prejuízo                      ",
+                "PROCAP-FAIXA III -T. MERCADO-IMOVEIS RESID – NOVO - Com Atra",
+                "PEM - IMOVEIS RESID - USADO - Com Atraso                    ",
+                "TM - M.CONSTRUCAO - AQUIS.CRÉDITO Com Atraso                ",
+                "FX LIVRE - EMPREST. GAR. FIDUCIARIA - Com Atraso            ",
+                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - NOVO - Com Atraso        ",
+                "FX LIVRE - AQUISICAO TERRENO                                ",
+                "SFH - IMOVEIS RESID. - NOVO - Prejuízo                      ",
+                "PROCAP-FAIXA II-SFH - CONTRUCAO CONCLUIDA                   ",
+                "SFH - IMOVEIS RESID. - USADO - Com Atraso                   ",
+                "SFH - IMOVEIS RESID. - USADO - Prejuízo                     ",
+                "T.MERCADO - CONSTRUCAO CONCLUIDA                            ",
+                "PEM - CONSTRUCAO CONCLUIDA                                  ",
+                "EMPRESTIMOS - CAPITAL DE GIRO - Prejuízo                    ",
+                "T.MERCADO - MAT DE CONSTRUCAO - GAR IMOB - Prejuízo         ",
+                "PROCAP-FAIXA III -T. MERCADO-CONTRUCAO CONCLUÍDA            ",
+                "TM - M.CONSTRUCAO - AQUIS.CRÉDITO - Prejuízo                ",
+                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - NOVO                     ",
+                "PROCAP-FX ESPECIAL-SFH-IMÓVEL RESID                         ",
+                "T.MERCADO - MATERIAL DE CONSTRUCAO - LINHA MAIS - PREJUIZO  ",
+                "SFH - CONSTRUCAO CONCLUIDA                                  ",
+                "T.MERCADO - IMOVEIS RESID - NOVO - Prejuízo                 ",
+                "SFH - IMOVEIS RESID. - NOVO - Com Atraso                    ",
+                "PROCAP-FAIXA III -T. MERCADO-IMOVEIS RESID – NOVO           ",
+                "T.MERCADO - MATERIAL DE CONSTRUCAO - Com Atraso             ",
+                "PEM - AQUISICAO DE TERRENO                                  ",
+                "T.MERCADO - IMOVEIS RESID - NOVO - Com Atraso               ",
+                "FX LIVRE - EMPREST. GAR. FIDUCIARIA                         ",
+                "PROCAP-FX ESPECIAL-SFH-IMÓVEL RESID - Com Atraso            ",
+                "PEM - IMOVEIS RESID - USADO                                 ",
+                "T.MERCADO - IMOVEIS RESID - USADO - Prejuízo                ",
+                "PEM - IMOVEIS RESID - NOVO                                  ",
+                "T.MERCADO - MATERIAL DE CONSTRUCAO - LINHA MAIS - COM ATRASO",
+                "PROCAP-FAIXA II-SFH-IMOVEIS RESID-USADO - Com Atraso        ",
+                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - USADO                    ",
+                "FX LIVRE - EMPREST. GAR. FIDUCIARIA - Prejuízo              ",
+                "FX LIVRE - AQUISICAO TERRENO - Com Atraso                   ",
+                "PEM - AQUISICAO DE TERRENO - Com Atraso                     ",
+                "PROCAP-FAIXA I-SFH-IMOVEIS RESID - USADO - Prejuízo         "
+        };
 
-        financiamento = financiamento.replace(" - Prejuízo ", "")
-                .replace(" - Com Atraso", "")
-                .replace(" - Com Atraso", "")
-                .replace(" Com Atraso", "")
-                .replace(" Com Atraso", "")
-                .replace(" - Prejuízo", "")
-                .replace(" - COM ATRASO", "")
-                .replace(" - PREJUIZO", "");
+        for (int i = 0; i < financiamento.length; i++) {
+            financiamento[i] = Ciro.ajustar(financiamento[i]);
+            System.out.println(Ciro.ajustar(financiamento[i]));
+        }
+    }
 
-        System.out.println(financiamento);
+    public static String ajustar(String descricao) {
+        return descricao
+                .replace("- Com Atraso", "")
+                .replace("- Com atraso", "")
+                .replace("- com atraso", "")
+                .replace("- COM ATRASO", "")
+                .replace("- Com Atra", "")
+                .replace("- Prejuizo", "")
+                .replace("- Prejuízo", "")
+                .replace("- PREJUIZO", "")
+                .replace("- PREJUÍZO", "")
+                .replace(" Com Atraso", "")
+                .replace(" Com atraso", "")
+                .replace(" com atraso", "")
+                .replace(" COM ATRASO", "")
+                .replace(" Prejuizo", "")
+                .replace(" Prejuízo", "")
+                .replace(" PREJUIZO", "")
+                .replace(" PREJUÍZO", "");
     }
 
 
-    }
+}
 
